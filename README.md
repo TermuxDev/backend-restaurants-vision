@@ -2,7 +2,9 @@
 
 API REST de gestion de reservations de restaurants.
 
-Ce projet couvre l'essentiel :
+Vous trouverez dans le dossier fiches-systeme-information/ , il contient les fiches de l'etude du système d'information. (J'ai tenu à l'intégré au cas où vous aurz des imcomprehension dans mon système.)
+
+Ce projet couvre :
 - authentification JWT et gestion des profils,
 - gestion des restaurants et de leurs tables,
 - definition des disponibilites par jour, date et heure,
@@ -17,7 +19,6 @@ Roles principaux : `CLIENT`, `GESTIONNAIRE` et `ADMIN`.
 - Django REST Framework
 - SimpleJWT
 - drf-spectacular
-- SQLite en developpement ou MySQL via variables d'environnement
 
 ## Demarrage du projet
 
@@ -62,7 +63,7 @@ python manage.py runserver
 7. Ouvrir la documentation.
 
 ```text
-http://127.0.0.1:8000/api/docs/
+https://backend-restaurants-vision.onrender.com/api/docs/
 ```
 
 
