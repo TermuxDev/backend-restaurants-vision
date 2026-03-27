@@ -22,7 +22,7 @@ from utilisateurs.serializers import (
 	examples=[
 		OpenApiExample(
 			"Inscription - requete",
-			value={"nom": "Jean Dupont", "email": "jean@exemple.com", "mot_de_passe": "motdepasse123"},
+			value={"nom": "Jean Dupont", "email": "utilisateur@example.com", "mot_de_passe": "motdepasse123"},
 			request_only=True,
 		),
 		OpenApiExample(
@@ -30,7 +30,7 @@ from utilisateurs.serializers import (
 			value={
 				"public_id": "4cb83b87-4d57-4472-a9c8-4f11b0da0dd1",
 				"nom": "Jean Dupont",
-				"email": "jean@exemple.com",
+				"email": "utilisateur@example.com",
 				"role": "CLIENT",
 				"date_joined": "2026-03-26T10:00:00+01:00",
 			},
