@@ -1,8 +1,0 @@
-Django==4.2.11
-djangorestframework==3.16.1
-drf-spectacular==0.28.0
-djangorestframework-simplejwt==5.5.1
-django-cors-headers==4.9.0
-mysqlclient==2.2.7
-uvicorn[standard]==0.23.2
-vercel-django
